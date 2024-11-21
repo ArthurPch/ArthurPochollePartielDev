@@ -117,3 +117,68 @@ footer {
 }
 
 
+
+@media (max-width: 500px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+        text-align: center;
+        ul {
+            gap: 10px; 
+            justify-content: center;
+        }
+        #logo {
+            height: 70px; 
+        }
+    }
+
+
+    
+
+    #hero {
+        height: 300px; 
+        h1 {
+            font-size: 1.5rem;
+            padding: 5px 10px;
+        }
+    }
+    #voyageur {
+        padding: 20px 10px; 
+    }
+
+    #grp1 h1 {
+        font-size: 1.5rem; 
+    }
+
+    #grp2 ul {
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    #grp2 li {
+        width: 100%; 
+        height: auto;
+    }
+
+    #grp2 img {
+        height: 150px; 
+    }
+
+    #CTA {
+        height: 300px; 
+        padding: 10px;
+    }
+
+    #CTA button {
+        padding: 10px 20px;
+        font-size: 1rem; 
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    footer img {
+        height: 80px; 
+    }
+}
