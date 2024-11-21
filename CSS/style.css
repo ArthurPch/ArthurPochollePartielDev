@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a004e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: #fff;
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        li {
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+    }
+    #logo {
+        height: 100px;
+    }
+}
+
+#hero {
+    position: relative;
+    background-image: url('../images/santorini.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    font-family: "Open Sans", serif;
+    font-weight: 100;
+    h1 {
+        position: absolute;
+        top: 20px; 
+        left: 20px; 
+        font-size: 2.5rem;
+        background-color: #4a004e;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+}
+
+#voyageur {
+    background-color: #e4dce2;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    #grp1 h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+    #grp2 ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+    #grp2 li {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 2px solid #ddd;
+    }
+    #grp2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+    #grp2 img:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+#CTA {
+    position: relative;
+    height: 500px;
+    background-image: url('../images/holiday.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #4a004e;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 1s ease;
+    }
+    button:hover {
+        background-color: #690069;
+        transform: scale(1.5); 
+    }
+}
+
+footer {
+    background-color: #4a004e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    img {
+        height: 150px;
+    }
+}
+
+
